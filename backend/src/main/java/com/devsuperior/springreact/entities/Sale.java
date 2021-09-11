@@ -1,4 +1,4 @@
-package com.devsuperior.springreact.entity;
+package com.devsuperior.springreact.entities;
 
 import java.time.LocalDate;
 
