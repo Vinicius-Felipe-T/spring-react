@@ -22,7 +22,7 @@ public class SaleController {
 	@Autowired
 	private SaleService service;
 
-	@GetMapping(value = "/")
+	@GetMapping
 	public ResponseEntity<Page<SaleDTO>> findAll(Pageable pageable) {
 		Page<SaleDTO> list = service.findAll(pageable);
 		return ResponseEntity.ok(list);
